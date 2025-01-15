@@ -1,0 +1,139 @@
+2025-01-13 14:04:09,245 | INFO | 🚀 Début du processus
+2025-01-13 14:04:09,245 | INFO | 📖 Chargement des données...
+2025-01-13 14:04:10,987 | INFO | 📆 Conversion de la colonne 'DATE' en datetime...
+2025-01-13 14:04:11,177 | WARNING | ⚠️ Certaines dates sont invalides et seront exclues...
+2025-01-13 14:04:11,370 | INFO | 📊 Split des données effectué:
+2025-01-13 14:04:11,371 | INFO | Train: 632365 lignes
+2025-01-13 14:04:11,371 | INFO | Validation: 135507 lignes
+2025-01-13 14:04:11,371 | INFO | Test: 135507 lignes
+2025-01-13 14:04:11,371 | INFO | 📊 Préparation des features...
+2025-01-13 14:04:13,822 | INFO | 📊 Préparation des features...
+2025-01-13 14:04:14,678 | INFO | 🎯 Entraînement du modèle...
+2025-01-13 14:04:14,745 | ERROR | ❌ Erreur: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2025-01-13 14:06:23,891 | INFO | 🚀 Début du processus
+2025-01-13 14:06:23,891 | INFO | 📖 Chargement des données...
+2025-01-13 14:06:25,808 | INFO | 📆 Conversion de la colonne 'DATE' en datetime...
+2025-01-13 14:06:26,125 | WARNING | ⚠️ Certaines dates sont invalides et seront exclues...                        ETBDES                        ARTDES DATE  QUANTITE PTLDES
+903379                 AUMALE         DRAP 1 PLACE LOCATION  NaT       100    NaN
+903380                 AUMALE         DRAP DE BAIN LOCATION  NaT        40    NaN
+903381                 AUMALE  DRAP HOUSSE 1 PLACE LOCATION  NaT        50    NaN
+903382                 AUMALE   SAC A LINGE ORANGE LOCATION  NaT        21    NaN
+903383                 AUMALE     SAC A LINGE VERT LOCATION  NaT        21    NaN
+...                       ...                           ...  ...       ...    ...
+2330112  CHU ROUEN CH.NICOLLE    VESTE DE PYJAMA ADULTE T06  NaT        15    NaN
+2330113  CHU ROUEN CH.NICOLLE    VESTE DE PYJAMA ADULTE T06  NaT         3    NaN
+2330114  CHU ROUEN CH.NICOLLE    VESTE DE PYJAMA ADULTE T06  NaT         2    NaN
+2330115  CHU ROUEN CH.NICOLLE    VESTE DE PYJAMA ADULTE T06  NaT         5    NaN
+2330116  CHU ROUEN CH.NICOLLE    VESTE DE PYJAMA ADULTE T06  NaT         2    NaN
+
+[1426738 rows x 5 columns]
+2025-01-13 14:06:26,317 | INFO | 📊 Split des données effectué:
+2025-01-13 14:06:26,318 | INFO | Train: 632365 lignes
+2025-01-13 14:06:26,318 | INFO | Validation: 135507 lignes
+2025-01-13 14:06:26,319 | INFO | Test: 135507 lignes
+2025-01-13 14:06:26,319 | INFO | 📊 Préparation des features...
+2025-01-13 14:06:28,685 | INFO | 📊 Préparation des features...
+2025-01-13 14:06:29,290 | INFO | 🎯 Entraînement du modèle...
+2025-01-13 14:06:29,325 | ERROR | ❌ Erreur: LGBMRegressor.fit() got an unexpected keyword argument 'verbose'
+2025-01-13 14:08:25,215 | INFO | 🚀 Début du processus
+2025-01-13 14:08:25,215 | INFO | 📖 Chargement des données...
+2025-01-13 14:08:26,719 | INFO | 📆 Conversion de la colonne 'DATE' en datetime...
+2025-01-13 14:08:27,013 | WARNING | ⚠️ Certaines dates sont invalides et seront exclues...                        ETBDES                        ARTDES DATE  QUANTITE PTLDES
+903379                 AUMALE         DRAP 1 PLACE LOCATION  NaT       100    NaN
+903380                 AUMALE         DRAP DE BAIN LOCATION  NaT        40    NaN
+903381                 AUMALE  DRAP HOUSSE 1 PLACE LOCATION  NaT        50    NaN
+903382                 AUMALE   SAC A LINGE ORANGE LOCATION  NaT        21    NaN
+903383                 AUMALE     SAC A LINGE VERT LOCATION  NaT        21    NaN
+...                       ...                           ...  ...       ...    ...
+2330112  CHU ROUEN CH.NICOLLE    VESTE DE PYJAMA ADULTE T06  NaT        15    NaN
+2330113  CHU ROUEN CH.NICOLLE    VESTE DE PYJAMA ADULTE T06  NaT         3    NaN
+2330114  CHU ROUEN CH.NICOLLE    VESTE DE PYJAMA ADULTE T06  NaT         2    NaN
+2330115  CHU ROUEN CH.NICOLLE    VESTE DE PYJAMA ADULTE T06  NaT         5    NaN
+2330116  CHU ROUEN CH.NICOLLE    VESTE DE PYJAMA ADULTE T06  NaT         2    NaN
+
+[1426738 rows x 5 columns]
+2025-01-13 14:08:27,223 | INFO | 📊 Split des données effectué:
+2025-01-13 14:08:27,223 | INFO | Train: 632365 lignes
+2025-01-13 14:08:27,223 | INFO | Validation: 135507 lignes
+2025-01-13 14:08:27,225 | INFO | Test: 135507 lignes
+2025-01-13 14:08:27,225 | INFO | 📊 Préparation des features...
+2025-01-13 14:08:28,809 | INFO | 📊 Préparation des features...
+2025-01-13 14:08:29,401 | INFO | 🎯 Entraînement du modèle...
+2025-01-13 14:08:29,646 | ERROR | ❌ Erreur: pandas dtypes must be int, float or bool.
+Fields with bad pandas dtypes: PTLDES: object
+2025-01-13 14:13:38,896 | WARNING | ⚠️ Certaines dates sont invalides et seront exclues...                        ETBDES                        ARTDES DATE  QUANTITE PTLDES
+903379                 AUMALE         DRAP 1 PLACE LOCATION  NaT       100    NaN
+903380                 AUMALE         DRAP DE BAIN LOCATION  NaT        40    NaN
+903381                 AUMALE  DRAP HOUSSE 1 PLACE LOCATION  NaT        50    NaN
+903382                 AUMALE   SAC A LINGE ORANGE LOCATION  NaT        21    NaN
+903383                 AUMALE     SAC A LINGE VERT LOCATION  NaT        21    NaN
+...                       ...                           ...  ...       ...    ...
+2330112  CHU ROUEN CH.NICOLLE    VESTE DE PYJAMA ADULTE T06  NaT        15    NaN
+2330113  CHU ROUEN CH.NICOLLE    VESTE DE PYJAMA ADULTE T06  NaT         3    NaN
+2330114  CHU ROUEN CH.NICOLLE    VESTE DE PYJAMA ADULTE T06  NaT         2    NaN
+2330115  CHU ROUEN CH.NICOLLE    VESTE DE PYJAMA ADULTE T06  NaT         5    NaN
+2330116  CHU ROUEN CH.NICOLLE    VESTE DE PYJAMA ADULTE T06  NaT         2    NaN
+
+[1426738 rows x 5 columns]
+2025-01-13 14:13:39,056 | INFO | Train: 632365 lignes
+2025-01-13 14:13:39,056 | INFO | Validation: 135507 lignes
+2025-01-13 14:13:39,057 | INFO | Test: 135507 lignes
+2025-01-13 14:13:48,551 | INFO | ✨ Processus terminé avec succès!
+2025-01-13 14:18:06,300 | INFO | 🚀 Début du processus
+2025-01-13 14:18:06,300 | INFO | 📖 Chargement des données...
+2025-01-13 14:18:07,888 | INFO | 📆 Conversion de la colonne 'DATE' en datetime...
+2025-01-13 14:18:08,161 | WARNING | ⚠️ Certaines dates sont invalides et seront exclues...                        ETBDES                        ARTDES DATE  QUANTITE PTLDES
+903379                 AUMALE         DRAP 1 PLACE LOCATION  NaT       100    NaN
+903380                 AUMALE         DRAP DE BAIN LOCATION  NaT        40    NaN
+903381                 AUMALE  DRAP HOUSSE 1 PLACE LOCATION  NaT        50    NaN
+903382                 AUMALE   SAC A LINGE ORANGE LOCATION  NaT        21    NaN
+903383                 AUMALE     SAC A LINGE VERT LOCATION  NaT        21    NaN
+...                       ...                           ...  ...       ...    ...
+2330112  CHU ROUEN CH.NICOLLE    VESTE DE PYJAMA ADULTE T06  NaT        15    NaN
+2330113  CHU ROUEN CH.NICOLLE    VESTE DE PYJAMA ADULTE T06  NaT         3    NaN
+2330114  CHU ROUEN CH.NICOLLE    VESTE DE PYJAMA ADULTE T06  NaT         2    NaN
+2330115  CHU ROUEN CH.NICOLLE    VESTE DE PYJAMA ADULTE T06  NaT         5    NaN
+2330116  CHU ROUEN CH.NICOLLE    VESTE DE PYJAMA ADULTE T06  NaT         2    NaN
+
+[1426738 rows x 5 columns]
+2025-01-13 14:18:08,380 | INFO | 📊 Split des données effectué:
+2025-01-13 14:18:08,381 | INFO | Train: 632365 lignes
+2025-01-13 14:18:08,381 | INFO | Validation: 135507 lignes
+2025-01-13 14:18:08,382 | INFO | Test: 135507 lignes
+2025-01-13 14:18:08,382 | INFO | 📊 Préparation des features...
+2025-01-13 14:18:10,201 | INFO | 📊 Préparation des features...
+2025-01-13 14:18:10,728 | INFO | 📊 Préparation des features...
+2025-01-13 14:18:11,331 | INFO | 🎯 Entraînement du modèle...
+2025-01-13 14:18:16,393 | INFO | 📈 Validation - RMSE: 15.88, MAE: 1.73, R²: 0.9755
+2025-01-13 14:18:16,393 | INFO | 📈 Test - RMSE: 59.99, MAE: 4.80, R²: 0.9388
+2025-01-13 14:18:16,415 | INFO | ✨ Processus terminé avec succès!
+2025-01-13 14:27:40,152 | INFO | 🚀 Début du processus
+2025-01-13 14:27:40,152 | INFO | 📖 Chargement des données...
+2025-01-13 14:27:41,700 | INFO | 📆 Conversion de la colonne 'DATE' en datetime...
+2025-01-13 14:27:41,987 | WARNING | ⚠️ Certaines dates sont invalides et seront exclues...                        ETBDES                        ARTDES DATE  QUANTITE PTLDES
+903379                 AUMALE         DRAP 1 PLACE LOCATION  NaT       100    NaN
+903380                 AUMALE         DRAP DE BAIN LOCATION  NaT        40    NaN
+903381                 AUMALE  DRAP HOUSSE 1 PLACE LOCATION  NaT        50    NaN
+903382                 AUMALE   SAC A LINGE ORANGE LOCATION  NaT        21    NaN
+903383                 AUMALE     SAC A LINGE VERT LOCATION  NaT        21    NaN
+...                       ...                           ...  ...       ...    ...
+2330112  CHU ROUEN CH.NICOLLE    VESTE DE PYJAMA ADULTE T06  NaT        15    NaN
+2330113  CHU ROUEN CH.NICOLLE    VESTE DE PYJAMA ADULTE T06  NaT         3    NaN
+2330114  CHU ROUEN CH.NICOLLE    VESTE DE PYJAMA ADULTE T06  NaT         2    NaN
+2330115  CHU ROUEN CH.NICOLLE    VESTE DE PYJAMA ADULTE T06  NaT         5    NaN
+2330116  CHU ROUEN CH.NICOLLE    VESTE DE PYJAMA ADULTE T06  NaT         2    NaN
+
+[1426738 rows x 5 columns]
+2025-01-13 14:27:42,171 | INFO | 📊 Split des données effectué:
+2025-01-13 14:27:42,171 | INFO | Train: 632365 lignes
+2025-01-13 14:27:42,171 | INFO | Validation: 135507 lignes
+2025-01-13 14:27:42,171 | INFO | Test: 135507 lignes
+2025-01-13 14:27:42,171 | INFO | 📊 Préparation des features...
+2025-01-13 14:27:43,869 | INFO | 📊 Préparation des features...
+2025-01-13 14:27:44,449 | INFO | 📊 Préparation des features...
+2025-01-13 14:27:45,024 | INFO | 🎯 Entraînement du modèle...
+2025-01-13 14:27:50,109 | INFO | 🔍 203 prédictions avec des erreurs supérieures à 50.
+2025-01-13 14:27:50,135 | INFO | 🔍 967 prédictions avec des erreurs supérieures à 50.
+2025-01-13 14:27:50,182 | INFO | 📈 Validation - RMSE: 15.88, MAE: 1.73, R²: 0.9755
+2025-01-13 14:27:50,182 | INFO | 📈 Test - RMSE: 59.99, MAE: 4.80, R²: 0.9388
+2025-01-13 14:27:50,195 | INFO | ✨ Processus terminé avec succès!

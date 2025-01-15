@@ -1,0 +1,77 @@
+2025-01-15 10:28:36,967 | INFO | 🚀 Début du processus XGBoost
+2025-01-15 10:28:36,969 | INFO | 📖 Chargement des données...
+2025-01-15 10:28:39,178 | INFO | 📊 Split des données effectué:
+2025-01-15 10:28:39,178 | INFO | Train: 722703 lignes (80.0%)
+2025-01-15 10:28:39,180 | INFO | Validation: 90338 lignes (10.0%)
+2025-01-15 10:28:39,180 | INFO | Test: 90338 lignes (9.999999999999995%)
+2025-01-15 10:28:39,180 | INFO | 📊 Préparation des features...
+2025-01-15 10:28:47,468 | INFO | 📊 Préparation des features...
+2025-01-15 10:28:49,474 | INFO | 📊 Préparation des features...
+2025-01-15 10:28:51,543 | INFO | 🎯 Entraînement du modèle XGBoost...
+2025-01-15 10:32:12,908 | INFO | 📈 Validation - RMSE: 0.75, MAE: 0.03, R²: 0.9632
+2025-01-15 10:32:12,912 | INFO | 📈 Test - RMSE: 4.72, MAE: 0.39, R²: 0.8165
+2025-01-15 10:32:12,938 | ERROR | ❌ Erreur: Mixing dicts with non-Series may lead to ambiguous ordering.
+2025-01-15 10:35:20,868 | INFO | 🚀 Début du processus XGBoost
+2025-01-15 10:35:20,869 | INFO | 📖 Chargement des données...
+2025-01-15 10:35:24,111 | INFO | Période couverte: 2022-01-02 00:00:00 à 2024-12-08 00:00:00
+2025-01-15 10:35:24,111 | INFO | Nombre total d'observations: 903379
+2025-01-15 10:35:24,113 | INFO | 📊 Split des données effectué:
+2025-01-15 10:35:24,113 | INFO | Train: 722703 lignes (80.0%)
+2025-01-15 10:35:24,113 | INFO | Validation: 90338 lignes (10.0%)
+2025-01-15 10:35:24,113 | INFO | Test: 90338 lignes (9.999999999999995%)
+2025-01-15 10:35:24,113 | INFO | 📊 Préparation des features...
+2025-01-15 10:35:33,759 | INFO | 📊 Préparation des features...
+2025-01-15 10:35:35,920 | INFO | 📊 Préparation des features...
+2025-01-15 10:35:38,185 | INFO | Nombre de features utilisées: 57
+2025-01-15 10:35:38,185 | INFO | 🎯 Entraînement du modèle XGBoost...
+2025-01-15 10:35:39,659 | ERROR | ❌ Erreur: callback must be an instance of `TrainingCallback`.
+2025-01-15 10:37:01,134 | INFO | 🚀 Début du processus XGBoost
+2025-01-15 10:37:01,136 | INFO | 📖 Chargement des données...
+2025-01-15 10:37:03,232 | INFO | Période couverte: 2022-01-02 00:00:00 à 2024-12-08 00:00:00
+2025-01-15 10:37:03,232 | INFO | Nombre total d'observations: 903379
+2025-01-15 10:37:03,232 | INFO | 📊 Split des données effectué:
+2025-01-15 10:37:03,232 | INFO | Train: 722703 lignes (80.0%)
+2025-01-15 10:37:03,232 | INFO | Validation: 90338 lignes (10.0%)
+2025-01-15 10:37:03,232 | INFO | Test: 90338 lignes (9.999999999999995%)
+2025-01-15 10:37:03,232 | INFO | 📊 Préparation des features...
+2025-01-15 10:37:11,262 | INFO | 📊 Préparation des features...
+2025-01-15 10:37:13,236 | INFO | 📊 Préparation des features...
+2025-01-15 10:37:15,318 | INFO | Nombre de features utilisées: 57
+2025-01-15 10:37:15,318 | INFO | 🎯 Entraînement du modèle XGBoost...
+2025-01-15 10:37:16,311 | ERROR | ❌ Erreur: EarlyStopping.__init__() got an unexpected keyword argument 'metric'
+2025-01-15 10:38:10,671 | INFO | 🚀 Début du processus XGBoost
+2025-01-15 10:38:10,671 | INFO | 📖 Chargement des données...
+2025-01-15 10:38:12,687 | INFO | Période couverte: 2022-01-02 00:00:00 à 2024-12-08 00:00:00
+2025-01-15 10:38:12,687 | INFO | Nombre total d'observations: 903379
+2025-01-15 10:38:12,687 | INFO | 📊 Split des données effectué:
+2025-01-15 10:38:12,702 | INFO | Train: 722703 lignes (80.0%)
+2025-01-15 10:38:12,702 | INFO | Validation: 90338 lignes (10.0%)
+2025-01-15 10:38:12,702 | INFO | Test: 90338 lignes (9.999999999999995%)
+2025-01-15 10:38:12,702 | INFO | 📊 Préparation des features...
+2025-01-15 10:38:20,830 | INFO | 📊 Préparation des features...
+2025-01-15 10:38:22,801 | INFO | 📊 Préparation des features...
+2025-01-15 10:38:24,859 | INFO | Nombre de features utilisées: 57
+2025-01-15 10:38:24,859 | INFO | 🎯 Entraînement du modèle XGBoost...
+2025-01-15 10:38:27,980 | INFO | [0]	train-rmse:2.80464	validation-rmse:3.80644
+2025-01-15 10:38:45,000 | INFO | [99]	train-rmse:0.27986	validation-rmse:0.75041
+2025-01-15 10:38:57,468 | INFO | [199]	train-rmse:0.15788	validation-rmse:0.69485
+2025-01-15 10:39:08,225 | INFO | [299]	train-rmse:0.13033	validation-rmse:0.69232
+2025-01-15 10:39:22,390 | INFO | [399]	train-rmse:0.11467	validation-rmse:0.68885
+2025-01-15 10:39:39,094 | INFO | [499]	train-rmse:0.09767	validation-rmse:0.68544
+2025-01-15 10:39:55,799 | INFO | [599]	train-rmse:0.08511	validation-rmse:0.68335
+2025-01-15 10:40:13,550 | INFO | [699]	train-rmse:0.07447	validation-rmse:0.68469
+2025-01-15 10:40:16,558 | INFO | 📈 Validation - RMSE: 0.68, MAE: 0.03, R²: 0.9695
+2025-01-15 10:40:16,559 | INFO | 📈 Test - RMSE: 4.44, MAE: 0.38, R²: 0.8381
+2025-01-15 10:40:16,563 | INFO | 
+🔍 Top 10 features les plus importantes:
+2025-01-15 10:40:16,566 | INFO | moving_min_1_ETBDES: 28079.3711
+2025-01-15 10:40:16,567 | INFO | moving_max_1_ETBDES: 17873.4395
+2025-01-15 10:40:16,568 | INFO | moving_std_7_ARTDES: 16131.4883
+2025-01-15 10:40:16,570 | INFO | moving_avg_1_ETBDES: 14622.5488
+2025-01-15 10:40:16,571 | INFO | ETBDES_encoded: 4997.6299
+2025-01-15 10:40:16,574 | INFO | moving_max_1_ARTDES: 3575.7129
+2025-01-15 10:40:16,575 | INFO | moving_max_14_ETBDES: 3267.7141
+2025-01-15 10:40:16,577 | INFO | moving_max_14_ARTDES: 2078.8152
+2025-01-15 10:40:16,581 | INFO | moving_max_7_ARTDES: 2054.0850
+2025-01-15 10:40:16,593 | INFO | ARTDES_encoded: 1908.1936
+2025-01-15 10:40:17,109 | INFO | ✨ Processus terminé avec succès!

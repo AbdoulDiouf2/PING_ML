@@ -1,0 +1,141 @@
+2025-01-13 13:15:34,292 | INFO | 🔍 Début de l'analyse statistique
+2025-01-13 13:15:34,292 | INFO | 📖 Lecture du fichier Final_data/donnees_completes_logistique_2022-2024.csv
+2025-01-13 13:15:36,106 | INFO | 
+📊 STATISTIQUES GÉNÉRALES
+2025-01-13 13:15:36,108 | INFO | Nombre total de lignes: 2,330,117
+2025-01-13 13:15:36,357 | INFO | Période couverte: de 01/01/2024 à 31/12/2023
+2025-01-13 13:15:36,499 | INFO | Nombre d'établissements uniques: 54
+2025-01-13 13:15:36,649 | INFO | Nombre d'articles uniques: 398
+2025-01-13 13:15:36,649 | INFO | 
+📦 ANALYSE DES QUANTITÉS
+2025-01-13 13:15:36,740 | INFO | count: 2,330,117.00
+2025-01-13 13:15:36,741 | INFO | mean: 33.29
+2025-01-13 13:15:36,741 | INFO | std: 118.09
+2025-01-13 13:15:36,741 | INFO | min: 1.00
+2025-01-13 13:15:36,741 | INFO | 25%: 4.00
+2025-01-13 13:15:36,741 | INFO | 50%: 10.00
+2025-01-13 13:15:36,742 | INFO | 75%: 30.00
+2025-01-13 13:15:36,742 | INFO | max: 10,690.00
+2025-01-13 13:15:36,979 | INFO | 
+🏢 TOP 5 DES ÉTABLISSEMENTS PAR VOLUME
+2025-01-13 13:15:36,979 | INFO | Établissement: CHU ROUEN CH.NICOLLE
+2025-01-13 13:15:36,979 | INFO |   - Nombre de commandes: 964,504
+2025-01-13 13:15:36,979 | INFO |   - Quantité totale: 30,317,958
+2025-01-13 13:15:36,979 | INFO |   - Moyenne par commande: 31.43
+2025-01-13 13:15:36,979 | INFO | Établissement: CHU ROUEN SAINT JULIEN
+2025-01-13 13:15:36,979 | INFO |   - Nombre de commandes: 203,223
+2025-01-13 13:15:36,979 | INFO |   - Quantité totale: 5,951,664
+2025-01-13 13:15:36,979 | INFO |   - Moyenne par commande: 29.29
+2025-01-13 13:15:36,979 | INFO | Établissement: CHU ROUEN BOIS GUILLAUME
+2025-01-13 13:15:36,979 | INFO |   - Nombre de commandes: 166,256
+2025-01-13 13:15:36,979 | INFO |   - Quantité totale: 5,392,689
+2025-01-13 13:15:36,979 | INFO |   - Moyenne par commande: 32.44
+2025-01-13 13:15:36,979 | INFO | Établissement: C.H. DIEPPE
+2025-01-13 13:15:36,979 | INFO |   - Nombre de commandes: 18,357
+2025-01-13 13:15:36,986 | INFO |   - Quantité totale: 4,103,713
+2025-01-13 13:15:36,986 | INFO |   - Moyenne par commande: 223.55
+2025-01-13 13:15:36,987 | INFO | Établissement: DARNETAL
+2025-01-13 13:15:36,988 | INFO |   - Nombre de commandes: 169,943
+2025-01-13 13:15:36,988 | INFO |   - Quantité totale: 4,084,531
+2025-01-13 13:15:36,989 | INFO |   - Moyenne par commande: 24.03
+2025-01-13 13:15:36,989 | ERROR | ❌ Erreur lors de l'analyse: Can only use .dt accessor with datetimelike values
+2025-01-13 13:15:36,989 | ERROR | 💥 Erreur critique: Can only use .dt accessor with datetimelike values
+2025-01-13 13:19:04,734 | INFO | 🔍 Début de l'analyse statistique
+2025-01-13 13:19:04,735 | INFO | 📖 Lecture du fichier Final_data/donnees_completes_logistique_2022-2024.csv
+2025-01-13 13:19:06,266 | INFO | 
+📋 STRUCTURE DES DONNÉES
+2025-01-13 13:19:06,267 | INFO | Colonnes présentes: ['ETBDES', 'ARTDES', 'DATE', 'QUANTITE', 'PTLDES']
+2025-01-13 13:19:06,271 | INFO | Types des colonnes:
+ETBDES      object
+ARTDES      object
+DATE        object
+QUANTITE     int64
+PTLDES      object
+dtype: object
+2025-01-13 13:19:06,271 | INFO | 
+🕒 Conversion des dates
+2025-01-13 13:19:06,483 | INFO | 
+📊 STATISTIQUES GÉNÉRALES
+2025-01-13 13:19:06,484 | INFO | Nombre total de lignes: 2,330,117
+2025-01-13 13:19:06,501 | INFO | Période couverte: de 02/01/2022 à 31/08/2024
+2025-01-13 13:19:06,659 | INFO | Nombre d'établissements uniques: 54
+2025-01-13 13:19:06,808 | INFO | Nombre d'articles uniques: 398
+2025-01-13 13:19:06,808 | INFO | 
+📦 ANALYSE DES QUANTITÉS
+2025-01-13 13:19:06,891 | INFO | count: 2,330,117.00
+2025-01-13 13:19:06,891 | INFO | mean: 33.29
+2025-01-13 13:19:06,892 | INFO | std: 118.09
+2025-01-13 13:19:06,892 | INFO | min: 1.00
+2025-01-13 13:19:06,892 | INFO | 25%: 4.00
+2025-01-13 13:19:06,892 | INFO | 50%: 10.00
+2025-01-13 13:19:06,892 | INFO | 75%: 30.00
+2025-01-13 13:19:06,892 | INFO | max: 10,690.00
+2025-01-13 13:19:07,128 | INFO | 
+🏢 TOP 5 DES ÉTABLISSEMENTS PAR VOLUME
+2025-01-13 13:19:07,129 | INFO | Établissement: CHU ROUEN CH.NICOLLE
+2025-01-13 13:19:07,130 | INFO |   - Nombre de commandes: 964,504
+2025-01-13 13:19:07,130 | INFO |   - Quantité totale: 30,317,958
+2025-01-13 13:19:07,130 | INFO |   - Moyenne par commande: 31.43
+2025-01-13 13:19:07,132 | INFO | Établissement: CHU ROUEN SAINT JULIEN
+2025-01-13 13:19:07,133 | INFO |   - Nombre de commandes: 203,223
+2025-01-13 13:19:07,133 | INFO |   - Quantité totale: 5,951,664
+2025-01-13 13:19:07,133 | INFO |   - Moyenne par commande: 29.29
+2025-01-13 13:19:07,133 | INFO | Établissement: CHU ROUEN BOIS GUILLAUME
+2025-01-13 13:19:07,135 | INFO |   - Nombre de commandes: 166,256
+2025-01-13 13:19:07,135 | INFO |   - Quantité totale: 5,392,689
+2025-01-13 13:19:07,135 | INFO |   - Moyenne par commande: 32.44
+2025-01-13 13:19:07,136 | INFO | Établissement: C.H. DIEPPE
+2025-01-13 13:19:07,136 | INFO |   - Nombre de commandes: 18,357
+2025-01-13 13:19:07,137 | INFO |   - Quantité totale: 4,103,713
+2025-01-13 13:19:07,137 | INFO |   - Moyenne par commande: 223.55
+2025-01-13 13:19:07,138 | INFO | Établissement: DARNETAL
+2025-01-13 13:19:07,138 | INFO |   - Nombre de commandes: 169,943
+2025-01-13 13:19:07,138 | INFO |   - Quantité totale: 4,084,531
+2025-01-13 13:19:07,139 | INFO |   - Moyenne par commande: 24.03
+2025-01-13 13:19:19,954 | INFO | 
+📅 ÉVOLUTION MENSUELLE
+2025-01-13 13:19:19,955 | INFO | Tendance des 3 derniers mois:
+2025-01-13 13:19:19,955 | INFO | Mois: 2024-06
+2025-01-13 13:19:19,956 | INFO |   - Nombre de commandes: 15,265
+2025-01-13 13:19:19,956 | INFO |   - Quantité totale: 1,781,863
+2025-01-13 13:19:19,957 | INFO | Mois: 2024-07
+2025-01-13 13:19:19,957 | INFO |   - Nombre de commandes: 16,897
+2025-01-13 13:19:19,958 | INFO |   - Quantité totale: 1,942,812
+2025-01-13 13:19:19,958 | INFO | Mois: 2024-08
+2025-01-13 13:19:19,959 | INFO |   - Nombre de commandes: 15,715
+2025-01-13 13:19:19,959 | INFO |   - Quantité totale: 1,789,584
+2025-01-13 13:19:20,240 | INFO | 
+📦 TOP 5 DES ARTICLES LES PLUS COMMANDÉS
+2025-01-13 13:19:20,241 | INFO | Article: LAVETTE
+2025-01-13 13:19:20,242 | INFO |   - Nombre de commandes: 78,168
+2025-01-13 13:19:20,242 | INFO |   - Quantité totale: 7,851,825
+2025-01-13 13:19:20,242 | INFO | Article: GANT DE TOILETTE
+2025-01-13 13:19:20,242 | INFO |   - Nombre de commandes: 67,004
+2025-01-13 13:19:20,242 | INFO |   - Quantité totale: 7,628,551
+2025-01-13 13:19:20,243 | INFO | Article: SERVIETTE DE TOILETTE
+2025-01-13 13:19:20,243 | INFO |   - Nombre de commandes: 78,485
+2025-01-13 13:19:20,243 | INFO |   - Quantité totale: 5,552,643
+2025-01-13 13:19:20,243 | INFO | Article: SERVIETTE DE TOILETTE LOCATION
+2025-01-13 13:19:20,244 | INFO |   - Nombre de commandes: 43,964
+2025-01-13 13:19:20,244 | INFO |   - Quantité totale: 5,358,764
+2025-01-13 13:19:20,244 | INFO | Article: BANDEAU DE LAVAGE
+2025-01-13 13:19:20,244 | INFO |   - Nombre de commandes: 75,711
+2025-01-13 13:19:20,246 | INFO |   - Quantité totale: 5,002,717
+2025-01-13 13:19:20,261 | INFO | 
+💾 FICHIERS GÉNÉRÉS
+2025-01-13 13:19:20,261 | INFO | - statistiques_etablissements.csv
+2025-01-13 13:19:20,263 | INFO | - statistiques_articles.csv
+2025-01-13 13:19:20,263 | INFO | - statistiques_temporelles.csv
+2025-01-13 13:19:20,274 | INFO | 
+⚠️ DÉTECTION DES ANOMALIES
+2025-01-13 13:19:20,274 | INFO | Nombre de commandes potentiellement anormales: 21013
+2025-01-13 13:19:20,359 | INFO | Liste sauvegardée dans 'commandes_anormales.csv'
+2025-01-13 13:19:32,805 | INFO | 
+📊 VARIATIONS PAR JOUR DE LA SEMAINE
+2025-01-13 13:19:32,806 | INFO | Friday: 34.05 unités en moyenne
+2025-01-13 13:19:32,806 | INFO | Monday: 33.51 unités en moyenne
+2025-01-13 13:19:32,806 | INFO | Saturday: 30.98 unités en moyenne
+2025-01-13 13:19:32,807 | INFO | Sunday: 32.17 unités en moyenne
+2025-01-13 13:19:32,808 | INFO | Thursday: 32.89 unités en moyenne
+2025-01-13 13:19:32,808 | INFO | Tuesday: 34.20 unités en moyenne
+2025-01-13 13:19:32,808 | INFO | Wednesday: 32.39 unités en moyenne

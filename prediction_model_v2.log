@@ -1,0 +1,26 @@
+2025-01-14 21:16:48,778 | INFO | 🚀 Début du processus v2
+2025-01-14 21:16:48,780 | INFO | 📖 Chargement des données...
+2025-01-14 21:16:52,865 | INFO | 📊 Split des données effectué (nouveau ratio):
+2025-01-14 21:16:52,865 | INFO | Train: 722703 lignes (80.0%)
+2025-01-14 21:16:52,865 | INFO | Validation: 90338 lignes (10.0%)
+2025-01-14 21:16:52,865 | INFO | Test: 90338 lignes (9.999999999999995%)
+2025-01-14 21:16:52,865 | INFO | 📊 Préparation des features améliorée...
+2025-01-14 21:16:57,867 | INFO | 📊 Préparation des features améliorée...
+2025-01-14 21:16:59,017 | INFO | 📊 Préparation des features améliorée...
+2025-01-14 21:17:00,136 | INFO | 🎯 Entraînement du modèle amélioré...
+2025-01-14 21:18:20,249 | INFO | 📈 Validation - RMSE: 0.24, MAE: 0.01, R²: 0.9964
+2025-01-14 21:18:20,250 | INFO | 📈 Test - RMSE: 1.24, MAE: 0.05, R²: 0.9874
+2025-01-14 21:18:20,250 | INFO | 
+🔍 Features les plus importantes:
+2025-01-14 21:18:20,252 | INFO |                 feature  importance
+11  moving_avg_1_ETBDES       12829
+13  moving_avg_1_ARTDES        2522
+17  moving_avg_7_ARTDES        1356
+28         trend_ARTDES        1268
+27         trend_ETBDES        1142
+16  moving_std_7_ETBDES         844
+15  moving_avg_7_ETBDES         509
+30       ARTDES_encoded         474
+9    jours_depuis_debut         394
+29       ETBDES_encoded         352
+2025-01-14 21:18:20,486 | INFO | ✨ Processus terminé avec succès!
